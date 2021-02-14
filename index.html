@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <title>aranoz</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootsnav.css">
+     <link rel="stylesheet" href="owl carsol/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owl carsol/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="owl carsol/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="css/slick-theme.css">  
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/jquery.countdown.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- start navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top  ">
+        <div class="container">
+            <!--start input of search -->
+            <div class="input-search">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search Here">
+                    <div class="close">
+                       <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                           <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                         </svg>
+                    </div>
+                 </div>
+            </div>
+            <!--end input of search -->
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.webp" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav">
+              <span ><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="currentColor" class="bi bi-filter-left" viewBox="0 0 16 16">
+                <path d="M2 10.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
+              </svg></a></span>
+            </button>
+          <div class="collapse navbar-collapse" id="main_nav">
+              <ul class="navbar-nav m-auto">
+                <li class="nav-item active"> <a class="nav-link" href="#home">Home </a> </li>
+                <li class="nav-item"><a class="nav-link" href="#shop"> shop </a></li>
+                 <li class="nav-item dropdown">
+                  <a class="nav-link  dropdown-toggle" href="#page" data-toggle="dropdown">  pages  </a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#"> Login</a></li>
+                    <li><a class="dropdown-item" href="#"> Tracking </a></li>
+                    <li><a class="dropdown-item" href="#"> Producing Checkout</a></li>
+                    <li><a class="dropdown-item" href="#"> Shopping Cart</a></li>
+                    <li><a class="dropdown-item" href="#"> Confirmation</a></li>
+                    <li><a class="dropdown-item" href="#"> Elements</a></li>   
+                    </ul>
+                </li> 
+                <li class="nav-item"><a class="nav-link" href="#blog"> blog </a></li>
+                <li class="nav-item"><a class="nav-link" href="#content"> contact </a></li>
+              </ul>
+          </div> <!-- navbar-collapse.// -->
+          <!-- icons -->
+          <div class="icons">
+              <span>
+                <a href="#" id="open-search"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                  </svg></a>
+              </span>
+              <span>
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                    <path d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                  </svg></a>
+              </span>
+              <span>
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
+                    <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
+                  </svg></a>
+              </span>
+          </div>
+        </div>
+      </nav>
+    <!-- end navbar -->
+
+    <!-- start header -->
+    <div id="home" class="header-slide">
+        <div class="slider">
+            <div class="container">
+            <div class="item">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="slide-desc">
+                            <h1>Wood & Cloth Sofa</h1>
+                            <p>Incididunt ut labore et dolore magna aliqua quis ipsum suspendisse ultrices gravida. Risus commodo viverra</p>
+                            <a href="#" class="btn_2">buy now</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 d-none d-lg-block">
+                        <div class="slide-img">
+                            <img src="img/banner_img.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="slider">
+            <div class="container">
+            <div class="item">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="slide-desc">
+                            <h1>Cloth & Wood Sofa</h1>
+                            <p>Incididunt ut labore et dolore magna aliqua quis ipsum suspendisse ultrices gravida. Risus commodo viverra</p>
+                            <a href="#" class="bttn">buy now</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 d-none d-lg-block">
+                        <div class="slide-img">
+                            <img src="img/ba.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="slider">
+            <div class="container">
+            <div class="item">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="slide-desc">
+                            <h1>Wood & Cloth Sofa</h1>
+                            <p>Incididunt ut labore et dolore magna aliqua quis ipsum suspendisse ultrices gravida. Risus commodo viverra</p>
+                            <a href="#" class="btn_2">buy now</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 d-none d-lg-block">
+                        <div class="slide-img">
+                            <img src="img/b.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+</div>
+
+    <!-- end header    -->
+
+    <!-- start features -->
+    <section id="blog" class="FeaturedCategory">
+        <div class="container">
+            <div class="text text-center">
+                <h2>Featured Category</h2>
+            </div>
+            <div class="row">
+    <div class="col-md-7 col-sm-6">
+        <div class="feature-item mb">
+            <!-- feature -->
+            <div class="row">
+                <!-- text -->
+                <div class="col-5"> 
+                    <div class="featureText">                               
+                        <p>Premium Quality</p>
+                        <h5>Latest foam Sofa</h5>
+                        <div class="feature-link">
+                            <a href="#">EXPLORE NOW <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+                                <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+                              </svg></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- img -->
+                <div class="col-7"> 
+                    <div class="feature-img">
+                        <img src="img/feature_1.webp" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-5 col-sm-6">
+        <div class="feature-item ">
+            <!-- feature -->
+            <div class="row pb-lg-4">
+                <!-- text -->
+                <div class="col-5 "> 
+                    <div class="featureText">                               
+                        <p>Premium Quality</p>
+                        <h5>Latest foam Sofa</h5>
+                        <div class="feature-link">
+                            <a href="#">EXPLORE NOW <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+                                <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+                              </svg></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- img -->
+                <div class="col-7"> 
+                    <div class="feature-img">
+                        <img src="img/feature_2.webp" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<div class="row"> 
+    <div class="col-md-5 col-sm-6">
+        <div class="feature-item mb">
+            <!-- feature -->
+            <div class="row">
+                <!-- text -->
+                <div class="col-12"> 
+                    <div class="featureText">                               
+                        <p>Premium Quality</p>
+                        <h5>Latest foam Sofa</h5>
+                        <div class="feature-link2">
+                            <a href="#">EXPLORE NOW <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+                                <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+                              </svg></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- img -->
+                <div class="col-8 ml-5"> 
+                    <div class="feature-img">
+                        <img src="img/feature_3.webp" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-7 col-sm-6">
+        <div class="feature-item">
+            <!-- feature -->
+            <div class="row">
+                <!-- text -->
+                <div class="col-12"> 
+                    <div class="featureText">                               
+                        <p>Premium Quality</p>
+                        <h5>Latest foam Sofa</h5>
+                        <div class="feature-link2">
+                            <a href="#">EXPLORE NOW <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+                                <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+                              </svg></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- img -->
+                <div class="col-12"> 
+                    <div class="feature-img pt-3 ">
+                        <img src="img/feature_4.webp" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+    </section>
+    <!-- end features -->
+
+    <!-- start shop -->
+    <div id="shop" class="shop">
+        <div class="container">
+            <div class="text">
+                <h2>Awesome <span>shop</span></h2>
+            </div>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                  <div class="item1 ">
+                      <div class="img-slick">
+                          <img src="img/product_1.webp" alt="">
+                      </div>
+                      <div class="content-slick">
+                          <h4>Quartz Belt Watch</h4>
+                          <h3>$150.00</h3>
+                          <div class="cart-slick">
+                            <a href="#" class="add-cart">+ add to cart</a>
+                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart text-dark i-slick" viewBox="0 0 16 16">
+                              <path d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                            </svg></a>
+                          </div>
+                      </div>
+                  </div>
+                  <br>
+                  <div class="item2">
+                    <div class="img-slick">
+                        <img src="img/product_8.webp" alt="">
+                    </div>
+                    <div class="content-slick">
+                        <h4>Quartz Belt Watch</h4>
+                        <h3>$150.00</h3>
+                        <div class="cart-slick">
+                          <a href="#" class="add-cart">+ add to cart</a>
+                          <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart text-dark i-slick" viewBox="0 0 16 16">
+                            <path d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                          </svg></a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                    <div class="item">
+                        <div class="item1 ">
+                            <div class="img-slick">
+                                <img src="img/product_2.webp" alt="">
+                            </div>
+                            <div class="content-slick">
+                                <h4>Quartz Belt Watch</h4>
+                                <h3>$150.00</h3>
+                                <div class="cart-slick">
+                                  <a href="#" class="add-cart">+ add to cart</a>
+                                  <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart text-dark i-slick" viewBox="0 0 16 16">
+                                    <path d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                  </svg></a>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="item2">
+                          <div class="img-slick">
+                              <img src="img/product_7.webp" alt="">
+                          </div>
+                          <div class="content-slick">
+                              <h4>Quartz Belt Watch</h4>
+                              <h3>$150.00</h3>
+                              <div class="cart-slick">
+                                <a href="#" class="add-cart">+ add to cart</a>
+                                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart text-dark i-slick" viewBox="0 0 16 16">
+                                  <path d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                </svg></a>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                 </div>
+                 <div class="item">
+                    <div class="item">
+                        <div class="item1 ">
+                            <div class="img-slick">
+                                <img src="img/product_3.webp" alt="">
+                            </div>
+                            <div class="content-slick">
+                                <h4>Quartz Belt Watch</h4>
+                                <h3>$150.00</h3>
+                                <div class="cart-slick">
+                                  <a href="#" class="add-cart">+ add to cart</a>
+                                  <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart text-dark i-slick" viewBox="0 0 16 16">
+                                    <path d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                  </svg></a>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="item2">
+                          <div class="img-slick">
+                              <img src="img/product_6.webp" alt="">
+                          </div>
+                          <div class="content-slick">
+                              <h4>Quartz Belt Watch</h4>
+                              <h3>$150.00</h3>
+                              <div class="cart-slick">
+                                <a href="#" class="add-cart">+ add to cart</a>
+                                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart text-dark i-slick" viewBox="0 0 16 16">
+                                  <path d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                </svg></a>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                 </div>
+                 <div class="item">
+                    <div class="item">
+                        <div class="item1 ">
+                            <div class="img-slick">
+                                <img src="img/product_4.webp" alt="">
+                            </div>
+                            <div class="content-slick">
+                                <h4>Quartz Belt Watch</h4>
+                                <h3>$150.00</h3>
+                                <div class="cart-slick">
+                                  <a href="#" class="add-cart">+ add to cart</a>
+                                  <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart text-dark i-slick" viewBox="0 0 16 16">
+                                    <path d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                  </svg></a>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="item2">
+                          <div class="img-slick">
+                              <img src="img/product_5.webp" alt="">
+                          </div>
+                          <div class="content-slick">
+                              <h4>Quartz Belt Watch</h4>
+                              <h3>$150.00</h3>
+                              <div class="cart-slick">
+                                <a href="#" class="add-cart">+ add to cart</a>
+                                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart text-dark i-slick" viewBox="0 0 16 16">
+                                  <path d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                </svg></a>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                 </div>
+                 <div class="item">
+                    <div class="item1 ">
+                        <div class="img-slick">
+                            <img src="img/product_1.webp" alt="">
+                        </div>
+                        <div class="content-slick">
+                            <h4>Quartz Belt Watch</h4>
+                            <h3>$150.00</h3>
+                            <div class="cart-slick">
+                              <a href="#" class="add-cart">+ add to cart</a>
+                              <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart text-dark i-slick" viewBox="0 0 16 16">
+                                <path d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                              </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="item2">
+                      <div class="img-slick">
+                          <img src="img/product_8.webp" alt="">
+                      </div>
+                      <div class="content-slick">
+                          <h4>Quartz Belt Watch</h4>
+                          <h3>$150.00</h3>
+                          <div class="cart-slick">
+                            <a href="#" class="add-cart">+ add to cart</a>
+                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart text-dark i-slick" viewBox="0 0 16 16">
+                              <path d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                            </svg></a>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                      <div class="item">
+                          <div class="item1 ">
+                              <div class="img-slick">
+                                  <img src="img/product_2.webp" alt="">
+                              </div>
+                              <div class="content-slick">
+                                  <h4>Quartz Belt Watch</h4>
+                                  <h3>$150.00</h3>
+                                  <div class="cart-slick">
+                                    <a href="#" class="add-cart">+ add to cart</a>
+                                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart text-dark i-slick" viewBox="0 0 16 16">
+                                      <path d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                    </svg></a>
+                                  </div>
+                              </div>
+                          </div>
+                          <br>
+                          <div class="item2">
+                            <div class="img-slick">
+                                <img src="img/product_7.webp" alt="">
+                            </div>
+                            <div class="content-slick">
+                                <h4>Quartz Belt Watch</h4>
+                                <h3>$150.00</h3>
+                                <div class="cart-slick">
+                                  <a href="#" class="add-cart">+ add to cart</a>
+                                  <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart text-dark i-slick" viewBox="0 0 16 16">
+                                    <path d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                  </svg></a>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                   </div>
+                   <div class="item">
+                      <div class="item">
+                          <div class="item1 ">
+                              <div class="img-slick">
+                                  <img src="img/product_3.webp" alt="">
+                              </div>
+                              <div class="content-slick">
+                                  <h4>Quartz Belt Watch</h4>
+                                  <h3>$150.00</h3>
+                                  <div class="cart-slick">
+                                    <a href="#" class="add-cart">+ add to cart</a>
+                                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart text-dark i-slick" viewBox="0 0 16 16">
+                                      <path d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                    </svg></a>
+                                  </div>
+                              </div>
+                          </div>
+                          <br>
+                          <div class="item2">
+                            <div class="img-slick">
+                                <img src="img/product_6.webp" alt="">
+                            </div>
+                            <div class="content-slick">
+                                <h4>Quartz Belt Watch</h4>
+                                <h3>$150.00</h3>
+                                <div class="cart-slick">
+                                  <a href="#" class="add-cart">+ add to cart</a>
+                                  <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart text-dark i-slick" viewBox="0 0 16 16">
+                                    <path d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                  </svg></a>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                   </div>
+                   <div class="item">
+                      <div class="item">
+                          <div class="item1 ">
+                              <div class="img-slick">
+                                  <img src="img/product_4.webp" alt="">
+                              </div>
+                              <div class="content-slick">
+                                  <h4>Quartz Belt Watch</h4>
+                                  <h3>$150.00</h3>
+                                  <div class="cart-slick">
+                                    <a href="#" class="add-cart">+ add to cart</a>
+                                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart text-dark i-slick" viewBox="0 0 16 16">
+                                      <path d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                    </svg></a>
+                                  </div>
+                              </div>
+                          </div>
+                          <br>
+                          <div class="item2">
+                            <div class="img-slick">
+                                <img src="img/product_5.webp" alt="">
+                            </div>
+                            <div class="content-slick">
+                                <h4>Quartz Belt Watch</h4>
+                                <h3>$150.00</h3>
+                                <div class="cart-slick">
+                                  <a href="#" class="add-cart">+ add to cart</a>
+                                  <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart text-dark i-slick" viewBox="0 0 16 16">
+                                    <path d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                  </svg></a>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                   </div>
+              </div>
+        </div>
+    </div>
+    <!-- end shop -->
+
+    <!-- start sale -->
+    <div id="page" class="sale">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="offer-img">
+                    <img src="img/offer_img.webp" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="offer-content">
+                        <h2>Weekly Sale on 60% Off All Products</h2>
+                         <!-- countdown -->
+                         
+        <div class="countdown-container">
+            <div class="countdown-el days-c">
+                <p class="big-text" id="days">0</p>
+                <span>days</span>
+            </div>
+            <div class="countdown-el hours-c">
+                <p class="big-text" id="hours">0</p>
+                <span>hours</span>
+            </div>
+            <div class="countdown-el mins-c">
+                <p class="big-text" id="mins">0</p>
+                <span>mins</span>
+            </div>
+            <div class="countdown-el seconds-c">
+                <p class="big-text" id="seconds">0</p>
+                <span>seconds</span>
+            </div>
+        </div>
+        <!-- end countdown -->
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Enter email">
+            
+                <a href="#" class="bttn btn_2">book now</a>
+             
+        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end sale -->
+
+    <!-- start subscribe -->
+    <div id="content" class="subscribe">
+        <div class="subscribe-details">
+            <div class="container">
+                <p>JOIN OUR NEWSLETTER</p>
+                <h2>Subscribe to get Updated with new offers</h2>
+                <div class="form-group"> 
+                <input type="text" class="form-control ff" placeholder="Enter email address">
+                <a href="" class="btn_2 bttn">subscribe now</a>
+                </div>
+        </div>
+        </div>
+        </div>
+    
+    <!-- end subscribe -->
+
+    <!-- start client logo -->
+    <div class="client-logo">
+        <div class="container">
+            <div class="row logo1">
+                <div class="col-lg-3 col-md-3 col-sm-4">
+                    <div class="item borderl-0">
+                        <img src="img/client_logo_1.webp" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4">
+                    <div class="item ">
+                        <img src="img/client_logo_2.webp" class="client-img " alt="" srcset="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4">
+                    <div class="item  ">
+                        <img src="img/client_logo_3.webp" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4">
+                    <div class="item  ">
+                        <img src="img/client_logo_4.webp" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4">
+                    <div class="item borderl-0 ">
+                        <img src="img/client_logo_5.webp" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4">
+                    <div class="item">
+                        <img src="img/client_logo_3.webp" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4">
+                    <div class="item  ">
+                        <img src="img/client_logo_5.webp" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4">
+                    <div class="item  ">
+                        <img src="img/client_logo_2.webp"class="client-img" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4">
+                    <div class="item borderl-0 ">
+                        <img src="img/client_logo_4.webp" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4">
+                    <div class="item  ">
+                        <img src="img/client_logo_2.webp" class="client-img " alt="" srcset="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4">
+                    <div class="item  ">
+                        <img src="img/client_logo_5.webp" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4">
+                    <div class="item  ">
+                        <img src="img/client_logo_1.webp" alt="" srcset="">
+                    </div>
+                </div>
+        
+        </div>
+    </div>
+    </div>
+    <!-- end client logo -->
+
+    <!-- start footer -->
+    <div class="footer">'
+        <div class="container">
+            <div class="footer-content">
+                <div class="row">
+                    <div class="col-lg-2 col-md-6">
+                        <div class="content">
+                            <h4>Top Products</h4>
+                            <ul class="list-unstyled">
+                            <li><a href="">Managed Website</a></li>
+                            <li><a href="">Manage Reputation</a></li>
+                            <li><a href="">Power Tools</a></li>
+                            <li><a href="">Marketing Service</a></li>
+                            </ul>   
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <div class="content">
+                            <h4>Quick Links</h4>
+                            <ul class="list-unstyled">
+                            <li><a href="">Jobs</a></li>
+                            <li><a href="">Brand Assets</a></li>
+                            <li><a href="">Investor Relations</a></li>
+                            <li><a href="">Terms of Service</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <div class="content">
+                            <h4>Features</h4>
+                            <ul class="list-unstyled">
+                            <li><a href="">Jobs</a></li>
+                            <li><a href="">Brand Assets</a></li>
+                            <li><a href="">Investor Relations</a></li>
+                            <li><a href="">Terms of Service</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <div class="content">
+                            <h4>Resources</h4>
+                            <ul class="list-unstyled">
+                            <li><a href="">Guides</a></li>
+                            <li><a href="">Research</a></li>
+                            <li><a href="">Experts</a></li>
+                            <li><a href="">Agencies</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="content">
+                            <h4>Newsletter</h4>
+                        <p>Heaven fruitful doesn't over lesser in days. Appear creeping
+                        </p>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Email Address">
+                            <a href="#" class="btn_2 bttn">subscribe</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- copywrite -->
+                <div class="copyright_part">
+                    <div class="container">
+                    <div class="row">
+                    <div class="col-lg-8">
+                    <div class="copyright_text">
+                    <P>
+                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" class="Colorlib">Colorlib</a>
+                    </P>
+                    </div>
+                    </div>
+                    <div class="col-lg-4">
+                    <div class="footer_icon social_icon">
+                    <div class="">
+                     <a href="#" class="single_social_icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                      </svg></a> 
+                    <a href="#" class="single_social_icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                      </svg></a> 
+                     <a href="#" class="single_social_icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe" viewBox="0 0 16 16">
+                        <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"/>
+                      </svg></a> 
+                     <a href="#" class="single_social_icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                      </svg></i></a> 
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                     
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- end footer -->
+
+    <!-- buttonUp -->
+    <button class="buttonUp bttn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-up-short" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z"/>
+          </svg>
+    </button>
+
+    <!-- loading -->
+    <div class="loading">
+        <div class="lds-facebook"><div></div><div></div><div></div></div>
+    </div>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootsnav.js"></script>
+    <script src="owl carsol/dist/owl.carousel.min.js"></script>
+    <script src="owl carsol/dist/owl.carousel.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.plugin.min.js"></script>
+     <script src="js/script.js"></script>
+</body>
+</html>
